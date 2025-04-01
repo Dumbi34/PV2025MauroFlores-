@@ -1,0 +1,50 @@
+.imagen img {    width: 1850px; 
+    height: 200px;
+     border-radius:10px ;
+ }
+.Jujuy {
+    padding: 1px;
+       font-size: 4em;
+       font-family:Georgia;
+       text-align:  center;
+       
+}
+
+.jp {
+
+     display: flex;
+     max-width: 1100px;
+}
+
+ .texto p{
+    display: flex;
+    max-width: 1100px;
+   
+}
+.pachamama {
+    display: flex;
+    max-width: 1100px;
+
+
+}
+.carnaval {
+    display: flex;
+    max-width: 1100px;
+}
+.juan {
+    display: flex;
+    max-width: 1100px;
+}
+.texto img{
+
+    width: 700px;
+    height: 300px;
+    object-fit: cover;
+    object-position: right;
+}
+
+body{ background-color: rgb(255, 255, 255);   
+   text-align: left;
+
+
+}
