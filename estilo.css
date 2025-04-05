@@ -1,4 +1,4 @@
-.imagen img {    width: 1850px; 
+.imagen img {    width: 100%; 
     height: 200px;
      border-radius:10px ;
  }
@@ -9,7 +9,18 @@
        text-align:  center;
        
 }
+h2{
+    font-size: 1.5em;
+    font-family:Georgia;
+}
+h4 {
+    font-size: 1.5em;
+    font-family:Georgia;
+}
+p {
+    font-size: 1.2em;
 
+}
 .jp {
 
      display: flex;
@@ -24,16 +35,18 @@
 .pachamama {
     display: flex;
     max-width: 1100px;
-
+    font-size: 1.2em;
 
 }
 .carnaval {
     display: flex;
     max-width: 1100px;
+    font-size: 1.2em;
 }
 .juan {
     display: flex;
     max-width: 1100px;
+    font-size: 1.2em;
 }
 .texto img{
 
@@ -43,11 +56,14 @@
     object-position: right;
 }
 
-body{ background-color: rgb(255, 255, 255);   
+body{ background-color: #fffaf0;   
    text-align: left;
-
-
 }
+
+  
+ /* esto es el estilo de museo.html*/ 
+ /* esto es el estilo de museo.html*/ 
+ /* esto es el estilo de museo.html*/ 
 nav ul {
     list-style: none;
     padding: 0;
@@ -67,10 +83,10 @@ nav ul {
   nav a {
     text-decoration: none;
     color: black;
-    background-color: #f0f0f0; /* Color de fondo del rectángulo */
-    padding: 10px 20px; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
-    border-radius: 10px; /* Radio para las esquinas redondeadas */
-    border: 1px solid #ccc; /* Borde del rectángulo (opcional) */
+    background-color: #f0f0f0; 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    border: 1px solid #bfbebe; 
   }
 .museo img {
     width: 100%; 
@@ -80,3 +96,149 @@ nav ul {
      object-position: center;
 
 }
+.museo h1 {
+    padding: 1px;
+       font-size: 4em;
+       font-family:Georgia;
+       text-align:  center;
+}
+section ul {
+
+    list-style: none;
+  padding: 0;
+  margin: 0;
+}
+section ul li {
+    display: contents; 
+    margin-right: 15px;
+}
+section a {
+    text-decoration: none;
+  color: inherit;
+}
+section a link{
+    color: inherit;
+}
+section a link :visited{
+    color: inherit;
+}
+section a :active
+{
+    color: inherit;
+}
+
+section img {
+    width: 500px;
+    height: 300px;
+}
+section a  {
+
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+/* esto es el css de contacto.html */
+
+#formulario-contacto {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%; 
+    max-width: 600px; 
+    margin: 20px auto; 
+  }
+  #formulario-contacto h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #formulario-contacto p {
+    color: #666;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  #formulario-contacto div {
+    margin-bottom: 20px;
+  }
+
+  #formulario-contacto label {
+    display: block;
+    color: #555;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  #formulario-contacto input[type="text"],
+  #formulario-contacto input[type="email"],
+  #formulario-contacto input[type="tel"],
+  #formulario-contacto input[type="text"]::placeholder,
+  #formulario-contacto input[type="email"]::placeholder,
+  #formulario-contacto input[type="tel"]::placeholder {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+  }
+  #formulario-contacto textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    resize: vertical; 
+  }
+  #formulario-contacto textarea::placeholder {
+    color: #999;
+  }
+  #formulario-contacto button[type="submit"] {
+    background-color: #007bff; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    width: 100%; 
+  }
+  #formulario-contacto button[type="submit"]:hover {
+    background-color: #0056b3; 
+  }    
+  footer {
+    width: 100%;
+    background-color: #999;
+    padding: 0; 
+    text-align: center; 
+    position: relative;
+  }
+  
+  footer div#casa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px; 
+  }
+  
+  footer div#casa a {
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    line-height: 60px; 
+    box-sizing: border-box; 
+    padding: 15px 0; 
+  }
+  
+  footer div#casa a:hover {
+    background-color: #e0e0e0; 
+  }
